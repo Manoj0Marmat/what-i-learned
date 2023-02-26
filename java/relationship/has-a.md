@@ -52,7 +52,7 @@ Has-a relationship is similar to **Whole&Part** relationship, where one object i
     ###### Car User Logic Class
 
     ```java
-    Cat jaguar = new Car("make", new Engine("x012", 289.9), 2022, "jx02");
+    Car jaguar = new Car("make", new Engine("x012", 289.9), 2022, "jx02");
     ```
 
     > [!NOTE] > `Engine engine` property of Car Class forming Composition here
