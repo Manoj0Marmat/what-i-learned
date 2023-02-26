@@ -6,7 +6,7 @@ Has-a relationship is similar to **Whole&Part** relationship, where one object i
 
 1.  Car has an Engine
 
-    ```json
+    ```lua
         +----------+           +-------------+
         |    Car   |           |  Engine     |
         +----------+           +-------------+
@@ -59,7 +59,7 @@ Has-a relationship is similar to **Whole&Part** relationship, where one object i
 
 2.  House has Room
 
-    ```json
+    ```lua
         +----------+           +----------+
         |   House  |           |   Room   |
         +----------+           +----------+
@@ -110,7 +110,7 @@ Has-a relationship is similar to **Whole&Part** relationship, where one object i
 
 3.  Person has Address
 
-    ```json
+    ```lua
         +----------+           +----------+
         |  Person  |           |  Address |
         +----------+           +----------+
