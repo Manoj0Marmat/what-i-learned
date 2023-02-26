@@ -5,7 +5,7 @@ It is the process of wrapping the properties & behaviours of an object whithin a
 ##### Ways to Perform
 
 1. make properties **private** who's have some valid ranges/need to perform some validation on them
-2. add _getters & setters_ to perform read & write on only **private** properties
+2. add **_getters & setters_** to perform read & write on only **private** properties
 
 ##### Advantages
 
