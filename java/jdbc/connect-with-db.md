@@ -33,7 +33,7 @@ it is Java Api for accessing relational datatbase.
        ResultSet rs = stmt.executeQuery("SELECT * FROM table");
    ```
 5. **Process the Results :**
-   You can process the results of the query by iterating over the ResultSet object using its next() method. This method returns true if there is another row in the result set, and false if there are no more rows.
+   You can process the results of the query by iterating over the ResultSet object using its `next()` method. This method returns true if there is another row in the result set, and false if there are no more rows.
    ```java
        while(rs.next()){
            int id = rs.getInt("Id");
