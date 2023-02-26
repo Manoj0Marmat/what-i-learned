@@ -1,6 +1,6 @@
 # Encapsulation
 
-It is the process wrapping the properties & behaviours of an object whithin a single unit of a class.
+It is the process of wrapping the properties & behaviours of an object whithin a single unit of a class.
 
 ##### Ways to Perform
 
@@ -58,10 +58,45 @@ class Vote{
 
     // setter with validation
     public void setAdhar(long adhar){
-        if((int)(Math.log10(adhar) == 12)){
+        if((int)(Math.log10(adhar)+1) == 12){
             this.adhar = adhar;
         }
     }
+}
+```
 
+###### User Logic Class
+
+```java
+class VotingMachine{
+    public static void main(String[] args){
+        // object using default constructor
+        Vote v1 = new Vote();
+
+        // printing predefined values
+        System.out.println(v1.name+" "+v1.getAge()+" "+v1.getAdhar());
+
+        // reinitializing properties
+        v1.name = "manoj rajput";
+        v.setAge(22);
+        v1.setAdhar(247361987646l);
+
+        // printing reinitialized values
+        System.out.println(v1.name+" "+v1.getAge()+" "+v1.getAdhar());
+
+        // object using parameterized constructor
+        Vote v2 = new Vote("rutik rajput", 20, 987654321102l);
+
+        // printing predefined values
+        System.out.println(v2.name+" "+v2.getAge()+" "+v2.getAdhar());
+
+        // reinitializing properties
+        v2.name = "leo xz";
+        v2.setAge(21);
+        v2.setAdhar(247361987646l);
+
+        // printing reinitialized values
+        System.out.println(v1.name+" "+v1.getAge()+" "+v1.getAdhar());
+    }
 }
 ```
