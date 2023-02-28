@@ -1,3 +1,5 @@
+[👈 **_Back_**](./index.md)
+
 # Divergent Branches
 
 This error occurs when we trying to merge two branches that have [diverged](./src/solve-branch-diverge/diverge.md).
