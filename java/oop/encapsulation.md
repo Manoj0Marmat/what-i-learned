@@ -1,3 +1,5 @@
+[👈 **_Back_**](./index.md)
+
 # Encapsulation
 
 It is the process of wrapping the properties & behaviours of an object whithin a single unit of a class.

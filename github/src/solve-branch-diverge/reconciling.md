@@ -1,3 +1,5 @@
+[👈 **_Back_**](../index.md)
+
 # Reconciling
 
 It refers to the process of merging or integrating changes from two or more branches that have [diverged](./diverge.md).

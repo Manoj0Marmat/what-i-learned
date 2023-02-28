@@ -1,3 +1,5 @@
+[👈 **_Back_**](../index.md)
+
 # Diverge
 
 When changes made to the same file or files in different branches and these changes cannot be automatically merged together.

@@ -1,3 +1,5 @@
+[👈 **_Back_**](../index.md)
+
 # Stored Procedure
 
 A stored procedure is a set of SQL statements that are stored in a database and can be called by name to perform a specific task.

@@ -1,3 +1,5 @@
+[👈 **_Back_**](../index.md)
+
 # Process the Result
 
 Suppose we have a table named "student" in a MySQL database with the following col:

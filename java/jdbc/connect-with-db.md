@@ -1,3 +1,5 @@
+[👈 **_Back_**](./index.md)
+
 # Java DataBase Connectivity
 
 it is Java Api for accessing relational datatbase.
@@ -22,12 +24,12 @@ it is Java Api for accessing relational datatbase.
        Connection conn = DriverManager.getConnection(url, userName, password);
    ```
 
-3. [**Create a Statement :**](./src/ways-to-fire-query.md)
+3. **[Create a Statement :](./src/ways-to-fire-query.md)**
    After establishing a connection, we need to create a statement object that will be used to execute sql statements. the statement can be created using the `Connection.createStatement()` method.
    ```java
        Statement stmt = conn.createStatement();
    ```
-4. [**Execute a query:**](./src/execute-methods.md)
+4. **[Execute a query:](./src/execute-methods.md)**
    Once you have a statement object, we can execute SQL queries using its `executeQuery()` method. This method returns a [ResultSet](./src/result-set-methods.md) object that contains the results of the query.
    ```java
        ResultSet rs = stmt.executeQuery("SELECT * FROM table");

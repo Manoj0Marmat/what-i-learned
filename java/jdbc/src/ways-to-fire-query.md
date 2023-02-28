@@ -1,3 +1,5 @@
+[👈 **_Back_**](../index.md)
+
 # Three Ways to Fire A Query Using JDBC
 
 1. **Using Statement Object :**

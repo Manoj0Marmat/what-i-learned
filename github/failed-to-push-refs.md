@@ -1,3 +1,5 @@
+[👈 **_Back_**](./index.md)
+
 # Failed to push some refs to git_repo
 
 When we are trying to push changes to a Git branch but your local branch has [diverged](./src/solve-branch-diverge/diverge.md) from the remote branch, meaning that there are changes on the remote branch that you do not have locally.

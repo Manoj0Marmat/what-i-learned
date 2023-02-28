@@ -1,3 +1,5 @@
+[👈 **_Back_**](./index.md)
+
 # Composition
 
 Has-a relationship is similar to **Whole&Part** relationship, where one object is used by another objects as it's property.
