@@ -22,18 +22,18 @@ it is Java Api for accessing relational datatbase.
        Connection conn = DriverManager.getConnection(url, userName, password);
    ```
 
-3. **[Create a Statement :](./src/ways-to-fire-query.md)**
+3. [**Create a Statement :**](./src/ways-to-fire-query.md)
    After establishing a connection, we need to create a statement object that will be used to execute sql statements. the statement can be created using the `Connection.createStatement()` method.
    ```java
        Statement stmt = conn.createStatement();
    ```
-4. **Execute a query:**
-   Once you have a statement object, we can execute SQL queries using its `executeQuery()` method. This method returns a ResultSet object that contains the results of the query.
+4. [**Execute a query:**](./src/execute-methods.md)
+   Once you have a statement object, we can execute SQL queries using its `executeQuery()` method. This method returns a [ResultSet](./src/result-set-methods.md) object that contains the results of the query.
    ```java
        ResultSet rs = stmt.executeQuery("SELECT * FROM table");
    ```
 5. **[Process the Results :](./src/process-the-results.md)**
-   You can process the results of the query by iterating over the ResultSet object using its `next()` method. This method returns true if there is another row in the result set, and false if there are no more rows.
+   You can process the results of the query by iterating over the [ResultSet](./src/result-set-methods.md) object using its `next()` method. This method returns true if there is another row in the result set, and false if there are no more rows.
    ```java
        while(rs.next()){
            int id = rs.getInt("Id");
@@ -43,7 +43,7 @@ it is Java Api for accessing relational datatbase.
        }
    ```
 6. **Close the Resources :**
-   Once we have finished using ResultSet, Statement, and Connection objects, we should close them to free up any resources they are holding.
+   Once we have finished using [ResultSet](./src/result-set-methods.md), Statement, and Connection objects, we should close them to free up any resources they are holding.
    ```java
        rs.close();
        stmt.close();
