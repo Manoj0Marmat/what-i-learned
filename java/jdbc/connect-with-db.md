@@ -22,7 +22,7 @@ it is Java Api for accessing relational datatbase.
        Connection conn = DriverManager.getConnection(url, userName, password);
    ```
 
-3. **Create a Statement :**
+3. **[Create a Statement :](./src/ways-to-fire-query.md)**
    After establishing a connection, we need to create a statement object that will be used to execute sql statements. the statement can be created using the `Connection.createStatement()` method.
    ```java
        Statement stmt = conn.createStatement();
@@ -32,7 +32,7 @@ it is Java Api for accessing relational datatbase.
    ```java
        ResultSet rs = stmt.executeQuery("SELECT * FROM table");
    ```
-5. **Process the Results :**
+5. **[Process the Results :](./src/process-the-results.md)**
    You can process the results of the query by iterating over the ResultSet object using its `next()` method. This method returns true if there is another row in the result set, and false if there are no more rows.
    ```java
        while(rs.next()){
