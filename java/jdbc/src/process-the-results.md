@@ -3,11 +3,17 @@
 # Process the Result
 
 Suppose we have a table named "student" in a MySQL database with the following col:
-| id |name| age|grade|
-|----|----|----|-----|
-|1|Alice|18|95|
-|2|Bob|17|82|
-|3|Charlie|16|74|
+
+```lua
++----+---------+-----+-------+
+| id |  name   | age | grade |
++----+---------+-----+-------+
+| 1  |  Alice  | 18  |  95   |
+| 2  |   Bob   | 17  |  82   |
+| 3  | Charlie | 16  |  74   |
++----+---------+-----+-------+
+```
+
 To retrieve all the rows from the "student" table using JDBC, we could use the following code :
 
 ```java
